@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=Edge,chrome=1">
+    <title>Peliculas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Titillium+Web&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Normalize151019.css">
+    <link rel="stylesheet" href="CSS/x1_ejPeliculas.css">
+    <script defer src="JS/x1_ejPeliculas.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="contenedorImgH">
+            <img src="Pictures/video.png">
+        </div>
+        <div class="contenedorTitleH">
+            <h1>Peliculas.com</h1>
+        </div>
+    </header>
+
+    <section>
+        <div class="contenedorFormS">
+            <form id="nuevoUsuario">
+                <div>
+                    <input type="text" placeholder="Nombre" pattern="[a-zA-Z]{1,10}" autocomplete="off" id="nombre" name="nombre">
+                </div>
+                <div>
+                    <input type="date" placeholder="Fecha de nacimiento" id="fecha" name="fecha">
+                </div>
+                <div>
+                    <button type="submit"><p>Registrar</p></button>
+                </div>
+            </form>
+        </div>
+        <div class="contenedorTablaS">
+            <div class="contenedorUsuario" id="contenedorUs">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="contenedorDerechosF">
+            <p>Derechos reservados: Angel González León</p>
+        </div>
+    </footer>
+</body>
+
+</html>
