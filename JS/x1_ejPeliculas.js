@@ -7,7 +7,7 @@ function cambiarFormato(fecha) {
 function obtenerEdad(newUsuario) {
     let fechaInput = newUsuario.get('fecha');
     let nacimiento = new Date(fechaInput);
-    let fechaActual = new Date();
+    let fechaActual = new Date('2020-08- 08');
 
     nacimiento.setDate(nacimiento.getDate() + 1);
 
